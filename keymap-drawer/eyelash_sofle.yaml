@@ -93,7 +93,7 @@ layers:
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+0, s: Sft+)}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AltGr+~
+  - {t: ']', s: '}'}
   - '|'
   - Sft+|
   - AltGr+|
