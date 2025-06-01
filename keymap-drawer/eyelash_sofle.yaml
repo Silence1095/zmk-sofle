@@ -80,7 +80,7 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - '|'
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -88,21 +88,21 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F12
   - {t: '-', s: _}
-  - '*'
+  - {t: \, s: '|'}
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+-, s: Sft+_}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
+  - Sft+|
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - PgUp
   - {t: Sft+8, s: Sft+*}
-  - {t: Alt+7, s: Alt+&}
-  - {t: Alt+8, s: Alt+*}
+  - {t: AltGr+7, s: AltGr+&}
+  - {t: AltGr+8, s: AltGr+*}
   - {t: ;, s: ':'}
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - RGB EFR
   - RGB SPI
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
+  - PgDn
   - {t: Sft+9, s: Sft+(}
-  - {t: Alt+0, s: Alt+)}
-  - {t: Alt+9, s: Alt+(}
+  - {t: AltGr+0, s: AltGr+)}
+  - {t: AltGr+9, s: AltGr+(}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
