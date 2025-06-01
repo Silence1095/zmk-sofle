@@ -104,7 +104,7 @@ layers:
   - {t: Alt+7, s: Alt+&}
   - {t: Alt+8, s: Alt+*}
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
