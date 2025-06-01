@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Home:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '|'
+  - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - layer1
+  - Symbols
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -65,7 +65,7 @@ layers:
   - '2'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Symbols:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -88,15 +88,15 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - F12
   - {t: '-', s: _}
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
+  - '|'
   - {t: Sft+7, s: Sft+&}
-  - {t: Sft+-, s: Sft+_}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - '|'
   - Sft+|
-  - {t: '$$mdi:transfer$$', type: trans}
+  - AltGr+|
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgUp
