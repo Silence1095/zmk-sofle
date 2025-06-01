@@ -103,7 +103,7 @@ layers:
   - {t: Sft+8, s: Sft+*}
   - {t: AltGr+7, s: AltGr+&}
   - {t: AltGr+8, s: AltGr+*}
-  - {t: ;, s: ':'}
+  - AltGr+2
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
